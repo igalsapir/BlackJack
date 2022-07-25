@@ -1,0 +1,54 @@
+אסטרטגיה בסיסית,,,,,,,,,,,
+סכום הכלפים,,,הכלף של הדילר,,,,,,,,
+,0,A,2,3,4,5,6,7,8,9,10
+0,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+1,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+2,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+3,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+4,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+5,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+6,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+7,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+8,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+9,Move.No,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+10,Move.No,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit
+11,Move.No,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl
+12,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.sTnd,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+13,Move.No,Move.Hit,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+14,Move.No,Move.Hit,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+15,Move.No,Move.Hit,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+16,Move.No,Move.Hit,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+17,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+18,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+19,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+20,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+,,,,,,,,,,,
+אסטרטגיה של כלים כפולים,,,,,,,,,,,
+כלף כפול,,,הכלף של הדילר,,,,,,,,
+מ-,0,A,2,3,4,5,6,7,8,9,10
+0,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+A,Move.No,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt
+2,Move.No,Move.Hit,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.Hit,Move.Hit,Move.Hit
+3,Move.No,Move.Hit,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.Hit,Move.Hit,Move.Hit
+4,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.sPlt,Move.sPlt,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+5,Move.No,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit
+6,Move.No,Move.Hit,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+7,Move.No,Move.Hit,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.Hit,Move.Hit,Move.Hit
+8,Move.No,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt
+9,Move.No,Move.sTnd,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sPlt,Move.sTnd
+10,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+,,,,,,,,,,,
+,,,,,,,,,,,
+ידיים רכות,,,,,,,,,,,
+יד רכה,,,הכלף של הדילר,,,,,,,,
+מ-,0,A,2,3,4,5,6,7,8,9,10
+0,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+1,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No,Move.No
+2,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+3,Move.No,Move.Hit,Move.Hit,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+4,Move.No,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+5,Move.No,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+6,Move.No,Move.Hit,Move.Hit,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.Hit,Move.Hit,Move.Hit,Move.Hit
+7,Move.No,Move.Hit,Move.sTnd,Move.Dbl,Move.Dbl,Move.Dbl,Move.Dbl,Move.sTnd,Move.sTnd,Move.Hit,Move.Hit
+8,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd
+9,Move.No,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd

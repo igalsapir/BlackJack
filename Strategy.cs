@@ -69,21 +69,29 @@ new Move[] { Move.No, Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTn
 new Move[] { Move.No, Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd,Move.sTnd }  // 20
        };
 
-        public Move NextMove(Card DlrOpen, Hand Player)
+        public const int MinBasicValue = 5;
+        public const int MaxBasicValue = 20;
+
+        public Move NextMove(Card DlrOpen, Hand PHand)
         {
-            if (Player.IsDbl())  // If Player has Double hand - Use Double strategy
-                return DblStrat[(int) Player.Cards[Hand.Card1].Rank][DlrOpen.Value()];
+            if (PHand.IsDbl())  // If Player has Double hand - Use Double strategy
+                return DblStrat[(int) PHand.Cards[Hand.Card1].Rank][DlrOpen.Value()];
 
             CardRank SoftRank;
-            if (Player.IsSoft())  // If Player has Soft hand - Use Soft strategy
+            if (PHand.IsInitialSoft())  // If Player has Soft hand - Use Soft strategy
             {
-                SoftRank = (Player.Cards[Hand.Card1].Rank == CardRank.Ace)
-                    ? Player.Cards[Hand.Card2].Rank
-                    : Player.Cards[Hand.Card1].Rank;
+                SoftRank = (PHand.Cards[Hand.Card1].Rank == CardRank.Ace)
+                    ? PHand.Cards[Hand.Card2].Rank
+                    : PHand.Cards[Hand.Card1].Rank;
                 return SoftStrat[(int) SoftRank][DlrOpen.Value()];
             }
 
-            int HandValue = Player.HandValue;
+            int HandValue = PHand.HandValue;
+            if (HandValue < 0)
+                return Move.No;
+            if (HandValue > MaxBasicValue)
+                return Move.Lose;
+
             return BasicStrat[HandValue][DlrOpen.Value()];  // Otherwise - Use Basic strategy
         }
 

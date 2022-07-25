@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    internal class Intake
+    public class Intake
     {
         // Intake functions
         // Test if number/char is in a given Range
@@ -23,13 +23,13 @@ namespace BlackJack
                 // Check that Width is in Range
                 if (Val < MinVal)
                 {
-                    Console.WriteLine("Your input is " + inputVal + " and it is smaller than " + Min);
+                    BlackJack.MyWrite(ConsoleColor.Yellow,"Your input is " + inputVal + " and it is smaller than " + Min + "\n");
                     return false;
                 }
 
                 if (Val > MaxVal)
                 {
-                    Console.WriteLine("Your input is " + inputVal + " and it is larger than " + Max);
+                    BlackJack.MyWrite(ConsoleColor.Yellow,"Your input is " + inputVal + " and it is larger than " + Max + "\n");
                     return false;
                 }
             }
@@ -39,7 +39,7 @@ namespace BlackJack
 
                 if (!char.IsLetter(Val) && !char.IsDigit(Val) && !char.IsSymbol(Val) && !char.IsPunctuation(Val))
                 {
-                    Console.WriteLine("Character should be Printable ASCII");
+                    BlackJack.MyWrite(ConsoleColor.Yellow,"Character should be Printable ASCII\n");
                     return false;
                 }
             }
@@ -81,7 +81,7 @@ namespace BlackJack
         {
             try
             {
-                Console.WriteLine(inputRequest);
+                BlackJack.MyWrite(ConsoleColor.Cyan, inputRequest + "\n");
                 inputString = Console.ReadLine();
 
                 if (inputString == string.Empty)
